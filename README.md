@@ -43,8 +43,6 @@
 
 ```
 ├── README.md
-├── DPM235507_LePhuocHao_DoAnCaNhan.docx   # Báo cáo đầy đủ
-├── Video_Demo_Chuong_Trinh.mp4            # Video demo
 └── Chuong_Trinh_Wokwi/
     ├── sketch.ino          # Mã nguồn Arduino (ESP32)
     ├── diagram.json        # Sơ đồ mạch Wokwi
@@ -59,7 +57,7 @@
 1. Truy cập dự án gốc:  
    👉 [https://wokwi.com/projects/478311706878221313](https://wokwi.com/projects/478311706878221313)
 
-2. Hoặc tạo project mới trên Wokwi và copy nội dung các file:
+2. Hoặc tạo project mới trên Wokwi và copy nội dung các file trong thư mục `Chuong_Trinh_Wokwi/`:
    - `sketch.ino`
    - `diagram.json`
    - `libraries.txt`
@@ -103,10 +101,11 @@ LOCKED ──(nhập số)──► INPUTTING ──(A + đúng PIN)──► UN
 
 ---
 
-## 7. Tài liệu
+## 7. Tài liệu đầy đủ
 
-- **Báo cáo đầy đủ:** `DPM235507_LePhuocHao_DoAnCaNhan.docx`
-- **Video demo:** `Video_Demo_Chuong_Trinh.mp4`
+- **Báo cáo Word + Video demo** được lưu tại Google Drive:  
+  👉 [https://drive.google.com/drive/folders/1uLDTA4ZRdfVtbqNTAgZkxRoCq9w2J6Tz](https://drive.google.com/drive/folders/1uLDTA4ZRdfVtbqNTAgZkxRoCq9w2J6Tz)
+
 - **Link Wokwi gốc:** https://wokwi.com/projects/478311706878221313
 
 ---
