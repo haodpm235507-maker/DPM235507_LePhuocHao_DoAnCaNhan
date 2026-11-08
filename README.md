@@ -103,8 +103,6 @@ LOCKED ──(nhập số)──► INPUTTING ──(A + đúng PIN)──► UN
 
 ---
 
----
-
 ## 7. Tác giả
 
 **Lê Phước Hào**  
