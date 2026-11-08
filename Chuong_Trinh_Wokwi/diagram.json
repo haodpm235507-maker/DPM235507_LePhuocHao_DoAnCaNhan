@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "author": "Sinh viên",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -62.5, "left": -206.6, "attrs": {} },
+    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": -578, "left": 236, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 36.4, "left": 499.2, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "ledGreen",
+      "top": 260,
+      "left": 150,
+      "attrs": { "color": "green" }
+    },
+    { "type": "wokwi-led", "id": "ledRed", "top": 260, "left": 220, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 200, "left": 140, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": 200, "left": 210, "attrs": { "value": "220" } },
+    { "type": "wokwi-buzzer", "id": "bz1", "top": 260, "left": 300, "attrs": { "volume": "0.1" } }
+  ],
+  "connections": [
+    [ "esp:D13", "keypad1:R1", "green", [ "h-67.2", "v172.6", "h604.8" ] ],
+    [ "esp:D14", "keypad1:R2", "green", [ "h-86.4", "v172.9", "h634" ] ],
+    [ "esp:RX2", "keypad1:R3", "green", [] ],
+    [ "esp:TX2", "keypad1:R4", "green", [] ],
+    [ "esp:D25", "keypad1:C1", "blue", [ "h-57.6", "v-153.6", "h633.7" ] ],
+    [ "esp:D26", "keypad1:C2", "blue", [ "h-38.4", "v-144.1", "h624" ] ],
+    [ "esp:D27", "keypad1:C3", "blue", [ "h-19.2", "v-134.7", "h614.55" ] ],
+    [ "esp:D32", "keypad1:C4", "blue", [ "h-76.8", "v-153.7", "h681.9" ] ],
+    [ "esp:D18", "servo1:PWM", "orange", [] ],
+    [ "esp:VIN", "servo1:V+", "red", [ "h-57.6", "v67.2", "h892.8" ] ],
+    [ "esp:GND.1", "servo1:GND", "black", [] ],
+    [ "esp:D4", "r1:1", "green", [ "v0.1", "h245.3" ] ],
+    [ "r1:2", "ledGreen:A", "green", [] ],
+    [ "ledGreen:C", "esp:GND.1", "black", [ "h-232.2", "v-215.5" ] ],
+    [ "esp:D5", "r2:1", "red", [] ],
+    [ "r2:2", "ledRed:A", "red", [] ],
+    [ "ledRed:C", "esp:GND.1", "black", [ "h-263.8", "v-215.5" ] ],
+    [ "esp:D23", "bz1:2", "purple", [ "h86.1", "v-124.7", "h-288", "v547.2", "h644.2" ] ],
+    [ "bz1:1", "esp:GND.1", "black", [ "h-279", "v-228.7" ] ]
+  ],
+  "dependencies": {}
+}
