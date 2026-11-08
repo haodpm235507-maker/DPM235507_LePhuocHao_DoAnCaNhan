@@ -1,11 +1,11 @@
 # Hệ thống Kiểm soát Cửa Thông minh ESP32 + Mã PIN (Wokwi)
 
-**Đồ án môn học: Lập trình IoT**  
+**Đồ án cá nhân môn học: Lập trình IoT**  
 **Sinh viên:** Lê Phước Hào  
 **MSSV:** DPM235507  
 **Lớp:** DH24PM  
 **Giảng viên hướng dẫn:** Huỳnh Lý Thanh Nhàn  
-**Trường:** Đại học An Giang – Khoa Công nghệ Thông tin  
+**Trường:** Trường đại học An Giang – Khoa Công nghệ Thông tin - Ngành kỹ thuật phần mềm 
 
 ---
 
@@ -42,6 +42,8 @@
 ## 3. Cấu trúc thư mục
 
 ```
+├── DPM235507_LePhuocHao_DoAnCaNhan.docx
+├── Video_Demo_Chuong_Trinh.mp4
 ├── README.md
 └── Chuong_Trinh_Wokwi/
     ├── sketch.ino          # Mã nguồn Arduino (ESP32)
@@ -101,19 +103,12 @@ LOCKED ──(nhập số)──► INPUTTING ──(A + đúng PIN)──► UN
 
 ---
 
-## 7. Tài liệu đầy đủ
-
-- **Báo cáo Word + Video demo** được lưu tại Google Drive:  
-  👉 [https://drive.google.com/drive/folders/1uLDTA4ZRdfVtbqNTAgZkxRoCq9w2J6Tz](https://drive.google.com/drive/folders/1uLDTA4ZRdfVtbqNTAgZkxRoCq9w2J6Tz)
-
-- **Link Wokwi gốc:** https://wokwi.com/projects/478311706878221313
-
 ---
 
-## 8. Tác giả
+## 7. Tác giả
 
 **Lê Phước Hào**  
 MSSV: DPM235507  
-Lớp: DH24PM – Đại học An Giang  
+Lớp: DH24PM – Trường đại học An Giang  
 
 © 2026 – Đồ án phục vụ mục đích học tập
